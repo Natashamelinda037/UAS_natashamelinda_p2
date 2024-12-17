@@ -163,7 +163,7 @@ router.patch('/update/:id',[
 
                 })
             }else {
-                return req.status(200).json({
+                return res.status(200).json({
                     status: true,
                     message: 'update data berhasil'
                 })
